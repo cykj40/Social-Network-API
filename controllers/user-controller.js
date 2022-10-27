@@ -61,7 +61,7 @@ const userController = {
     deleteUser({ params }, res) {
         Thought.deleteMany({ userId: params.id })
         .then(() => {
-            User.findOneAndDelete({userId: params.id})
+            User.findOneAndDelete({ userId: params.id })
             .then(dbUserData => {
                 if (!dbUserData) {
                     res.status(404).json({ message: 'No user found with this id!' });
