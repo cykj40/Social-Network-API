@@ -10,6 +10,17 @@
   the application is Mongodb with mongoose ODM.Expressjs for the routing and we also used insominia for  route testing.
 ```
   ## Table of Contents
+  * [Description](#description)
+  * [About](#about) 
+  * [User Story](#user-story)
+  * [Acceptance Criteria](#acceptance-criteria)
+  * [Screenshots](#screenshots)
+  * [Video Preview](#video-preview)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Test](#test)
+  * [Contributers](#contributers)
+  * [Questions](#questions)
  
 
   ## About
@@ -25,7 +36,17 @@
   ```
 
   ## Acceptance Criteria
-  
+  ```md
+  GIVEN a social network API
+  WHEN I enter the command to invoke the application
+  THEN my server is started and the Mongoose models are synced to the MongoDB database
+  WHEN I open API GET routes in Insomnia for users and thoughts
+  THEN the data for each of these routes is displayed in a formatted JSON
+  WHEN I test API POST, PUT, and DELETE routes in Insomnia
+  THEN I am able to successfully create, update, and delete users and thoughts in my database
+  WHEN I test API POST and DELETE routes in Insomnia
+  THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+  ```
   ## Screenshots
   ![Screenshot (71)](https://user-images.githubusercontent.com/102045473/198842498-bf1339d5-9dd1-4277-8e9c-71995478320a.png)
 
@@ -42,14 +63,24 @@ https://user-images.githubusercontent.com/102045473/198842455-0dc21e43-fae8-41ae
 
  
   ## Installation
-  1.Download the files from my github repo Social Media API
-  2. Download MongoDB if you don't already have it. 
-  3. run the following set of commands in your cli
+  
+  
+ 1.) Download the files from my github repo Social Media API
+  
+  
+  
+ 2.) Download MongoDB if you don't already have it. 
+  
+  
+  
+ 3.) run the following set of commands in your cli
+  
   ```md
   * npm init -y
   * npm install (express,mongoose,moment)
   ```
-  4.Start the server 
+  
+  4.) Start the server 
   ```md
   * npm start
   ```
