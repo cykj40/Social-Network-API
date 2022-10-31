@@ -49,6 +49,7 @@
   ```
   ## Screenshots
   ![Screenshot (71)](https://user-images.githubusercontent.com/102045473/198842498-bf1339d5-9dd1-4277-8e9c-71995478320a.png)
+![Screenshot (72)](https://user-images.githubusercontent.com/102045473/199001662-01f13550-3ed7-44eb-8051-91ce9c125792.png)
 
   
   ## Video Preview 
